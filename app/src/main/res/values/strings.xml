@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AvidosPay</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_manage_pay_methods">Administrar pagos</string>
+    <string name="label_payment_plans">Plan de pagos</string>
+
+    <string name="option_payment_established_method">Método de pago establecido</string>
+    <string name="option_manage_payment_method">Administrar método de pago</string>
+    <string name="option_add_card">Agregar tarjeta crédito/débito</string>
+    <string name="option_current_pay_plan">Plan de pago actual</string>
+    <string name="option_manage_payment_plan">Administrar plan de pago</string>
+    <string name="option_pay">Realizar pago</string>
+    <string name="option_account_status">Estado de cuenta</string>
+
+    <string name="hint_card_holder_name">Titular en la tarjeta</string>
+    <string name="hint_card_number">Número de tarjeta</string>
+    <string name="hint_month_year">MM/AA</string>
+    <string name="hint_cvv">CVV</string>
+
+    <string name="payment_cash">Efectivo</string>
+
+</resources>
