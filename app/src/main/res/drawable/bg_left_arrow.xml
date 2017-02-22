@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_longAnimTime">
+    <item android:state_pressed="true">
+        <bitmap
+            android:tint="@color/colorLightGray"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+    </item>
+    <item android:state_focused="true" >
+        <bitmap
+            android:tint="@color/colorLightGray"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+    </item>
+    <item>
+        <bitmap
+            android:tint="@color/colorGray"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+    </item>
+</selector>

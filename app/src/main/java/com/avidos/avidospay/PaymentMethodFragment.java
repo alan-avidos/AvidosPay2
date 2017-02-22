@@ -119,7 +119,7 @@ public class PaymentMethodFragment extends Fragment implements View.OnClickListe
             case R.id.image_add_card:
                 AddCardFragment addCardFragment = AddCardFragment.newInstance();
                 ft = getFragmentManager().beginTransaction();
-                ft.setCustomAnimations(R.anim.pop_enter, R.anim.pop_exit, R.anim.enter, R.anim.exit);
+                ft.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit);
                 ft.replace(R.id.content, addCardFragment, "PayFragment").commit();
                 break;
         }
